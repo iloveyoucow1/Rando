@@ -1,5 +1,4 @@
 """This module sorts a directory"""
-#!/usr/bin/python
 import sys
 import os
 
@@ -33,5 +32,4 @@ def __make_dir__(dirs):
         except FileExistsError:
             continue
     return str(counter) + " Dir's made."
-
 print(__make_dir__(DIR_LIST))
